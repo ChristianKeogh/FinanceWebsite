@@ -1,0 +1,27 @@
+/* Boxes.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 50px;
+  }
+  
+  .main-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 100px 0 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+
+  .max-size {
+    padding: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
